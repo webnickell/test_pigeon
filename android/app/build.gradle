@@ -40,6 +40,9 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
 
     buildTypes {
         release {
